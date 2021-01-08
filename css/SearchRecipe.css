@@ -1,0 +1,170 @@
+body
+{
+    font-family: 'Lemonada', cursive;
+    background-color: #dd7230;
+}
+
+nav
+{
+    background-color: #f4c95d;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #854D27;
+    min-height: 100vh;
+}
+
+.body1
+{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header
+{
+    text-align: center;
+    font-size: 40px;
+    color: #f4c95d;
+    margin-bottom: 30px;
+}
+
+form
+{
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(223,223,223);
+    border-radius: 4px;
+}
+
+form input
+{
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    display: inline-block;
+}
+
+.result
+{
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    grid-template: auto / repeat(auto-fit, minmax(300px,1fr));
+}
+
+.details
+{
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 135px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #e7e393;
+    text-align: center;
+    height: auto;
+}
+
+.viewbtn
+{
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    padding: 3px 10px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.viewbtn:hover
+{
+    text-decoration: none;
+    color: #888;
+}
+
+.info
+{
+    padding-top: 10px;
+}
+
+.title
+{
+    font-size: 25px;
+}
+
+/*FOOTER*/
+footer
+{
+	width: 100%;
+	height: 200px;
+	background-color: #111;
+	text-align: center;
+	color: #666;
+	padding-top: 20px;
+}
+
+.fa 
+{
+	padding: 15px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+  
+.fa:hover 
+{
+	opacity: 0.7;
+}
+
+.fa-facebook
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-twitter
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-youtube 
+{
+	background: #666;
+	color: #111;
+}
+  
+.fa-instagram 
+{
+	background: #666;
+	color: #111;
+}
+
+@media only screen and (max-width: 800px) {
+
+    footer
+	{
+		width: 100%;
+		height: auto;
+		padding-bottom: 5px;
+    }
+}
