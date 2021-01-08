@@ -9,6 +9,38 @@ nav
     background-color: #f4c95d;
 }
 
+body.dark
+{
+    font-family: 'Lemonada', cursive;
+    background-color: #444;
+    color: white;
+}
+
+nav.dark
+{
+    background-color: #888;
+}
+
+.darkmode {
+	background-color:#3c5242;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 15px;
+	text-decoration:none;
+    text-shadow:-1px 0px 50px #2f6627;  
+}
+.darkmode:hover {
+	background-color:#394732;
+}
+.darkmode:active {
+	position:relative;
+	top:1px;
+}
+
 img
 {
     width: 100%;
@@ -27,6 +59,12 @@ img
     min-height: 100vh;
 }
 
+.container.dark
+{
+    background-color: #333;
+    color: #999;
+}
+
 .body1
 {
     width: 90%;
@@ -40,6 +78,11 @@ img
     font-size: 40px;
     color: #f4c95d;
     margin-bottom: 30px;
+}
+
+.header.dark
+{
+    color: #999;
 }
 
 form
@@ -78,6 +121,11 @@ form input
     background-color: #e7e393;
     text-align: center;
     height: auto;
+}
+
+.details.dark
+{
+    background-color: #222;
 }
 
 .viewbtn

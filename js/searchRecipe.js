@@ -1,6 +1,7 @@
 const sForm = document.querySelector('form');
 const sResultDiv = document.querySelector('.result');
-const cont = document.querySelector('.body1')
+const cont = document.querySelector('.body1');
+const Mode = document.querySelector('#mode');
 let sQuery = '';
 
 const appID = '22df6f28';
@@ -22,7 +23,7 @@ async function fetchRECIPE ()
     console.log(data);
 }
 
-function  genHTML(results)
+function genHTML(results)
 {
     let generateHTML = '';
     results.map(result => {
@@ -40,5 +41,14 @@ function  genHTML(results)
     })
     sResultDiv.innerHTML = generateHTML;
 }
+
+Mode.addEventListener('click', (e) => 
+{
+    e.preventDefault();
+    document.body.classList.toggle('dark');
+    document.querySelector('nav').classList.toggle('dark');
+    document.querySelector('.container').classList.toggle('dark');
+    document.querySelector('.header').classList.toggle('dark');
+})
 
 
