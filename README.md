@@ -48,19 +48,19 @@ View [WIREFRAME](https://github.com/elginloh/ID-Assignment2/blob/main/WIREFRAME/
 
 ## Testing
 1.Homepage:
-	i.Click on next/back of slider and make sure it moves forward/backwards.
-	ii.Click on search now button and make sure it goes to the Foods Page.
-	iii.Click on Track now button and make sure it goes tot he Track Page.
+  - Click on next/back of slider and make sure it moves forward/backwards.
+  - Click on search now button and make sure it goes to the Foods Page.
+  - Click on Track now button and make sure it goes tot he Track Page.
 2.Foods:
-	i.Navigate to the "Foods" page
-	ii.Try to search for the recipe i want and enter and make sure that it displays up to 30 different recipes
-	iii.Click on view recipe and make sure it goes to a new tab with more information on it
+  - Navigate to the "Foods" page
+  - Try to search for the recipe i want and enter and make sure that it displays up to 30 different recipes
+  - Click on view recipe and make sure it goes to a new tab with more information on it
 3.Plan
-	i.Navigate to the "Track" page
-	ii.Try to submit the empty form and verify that an error message about the required fields appears
-	iii.Try to submit the form with all inputs valid and verify that a new record is created.
-	iv.Search for name and make sure only that name appears in the record
-	v.Delete records and make sure all records is deleted.
+  - Navigate to the "Track" page
+  - Try to submit the empty form and verify that an error message about the required fields appears
+  - Try to submit the form with all inputs valid and verify that a new record is created.
+  - Search for name and make sure only that name appears in the record
+  - Delete records and make sure all records is deleted.
 4.Click on toggle mode and make sure it changes to dark mode, pressing it again will change it to light mode.
 
 ## Credits
