@@ -61,7 +61,7 @@ View [WIREFRAME](https://github.com/elginloh/ID-Assignment2/blob/main/WIREFRAME/
   - Try to submit the form with all inputs valid and verify that a new record is created.
   - Search for name and make sure only that name appears in the record
   - Delete records and make sure all records is deleted.
-4.Click on toggle mode and make sure it changes to dark mode, pressing it again will change it to light mode.
+- Click on toggle mode and make sure it changes to dark mode, pressing it again will change it to light mode.
 
 ## Credits
 ### Media
