@@ -47,15 +47,15 @@ View [WIREFRAME](https://github.com/elginloh/ID-Assignment2/blob/main/WIREFRAME/
 	- The project uses BootStrap to create html/css
 
 ## Testing
-1.Homepage:
+- Homepage:
   - Click on next/back of slider and make sure it moves forward/backwards.
   - Click on search now button and make sure it goes to the Foods Page.
   - Click on Track now button and make sure it goes tot he Track Page.
-2.Foods:
+- Foods:
   - Navigate to the "Foods" page
   - Try to search for the recipe i want and enter and make sure that it displays up to 30 different recipes
   - Click on view recipe and make sure it goes to a new tab with more information on it
-3.Plan
+- Plan
   - Navigate to the "Track" page
   - Try to submit the empty form and verify that an error message about the required fields appears
   - Try to submit the form with all inputs valid and verify that a new record is created.
