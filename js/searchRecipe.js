@@ -1,6 +1,6 @@
+/*jshint esversion: 8 */
 const sForm = document.querySelector('form');
 const sResultDiv = document.querySelector('.result');
-const cont = document.querySelector('.body1');
 const Mode = document.querySelector('#mode');
 let sQuery = '';
 
@@ -12,14 +12,14 @@ sForm.addEventListener('submit', (e) =>
     e.preventDefault();
     sQuery = e.target.querySelector('input').value;
     fetchRECIPE();
-})
+});
 
 async function fetchRECIPE ()
 {
     const URL = `https://api.edamam.com/search?q=${sQuery}&app_id=${appID}&app_key=${appKEY}&to=30`;
     const response = await fetch(URL);
     const data = await response.json();
-    genHTML(data.hits)
+    genHTML(data.hits);
     console.log(data);
 }
 
@@ -37,8 +37,8 @@ function genHTML(results)
             </div>
             <p class="info">Calories: ${result.recipe.calories.toFixed(2)}</p>
         </div>
-        `
-    })
+        `;
+    });
     sResultDiv.innerHTML = generateHTML;
 }
 
@@ -49,6 +49,6 @@ Mode.addEventListener('click', (e) =>
     document.querySelector('nav').classList.toggle('dark');
     document.querySelector('.container').classList.toggle('dark');
     document.querySelector('.header').classList.toggle('dark');
-})
+});
 
 

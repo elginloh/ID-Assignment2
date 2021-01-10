@@ -1,5 +1,5 @@
+/*jshint esversion: 8 */
 const Mode = document.querySelector('#mode');
-const submit = document.querySelector('#submit');
 Mode.addEventListener('click', (e) => 
 {
     e.preventDefault();
@@ -8,7 +8,7 @@ Mode.addEventListener('click', (e) =>
     document.querySelector('.table').classList.toggle('dark');
     document.querySelector('.display').classList.toggle('dark');
     document.querySelector('.form').classList.toggle('dark');
-})
+});
 
 function saveRecord()
 {
@@ -37,7 +37,8 @@ function saveRecord()
     window.location.reload();
 }
 
-const item = JSON.parse(window.localStorage.getItem('data'))
+var i = 0;
+const item = JSON.parse(window.localStorage.getItem('data'));
 if(item != null)
 {
     for (i=0;i < item.length && i < 19; i++)
@@ -57,13 +58,13 @@ if(item != null)
 
 
 const sForm = document.querySelector('form');
-let sQuery = ''
+let sQuery = '';
 
 sForm.addEventListener('submit', (e) => 
 {
     e.preventDefault();
     sQuery = e.target.querySelector('input').value;
-    const item = JSON.parse(window.localStorage.getItem('data'))
+    const item = JSON.parse(window.localStorage.getItem('data'));
     if(item != null)
     {
         for (i=0; i<item.length; i++)
@@ -89,7 +90,7 @@ sForm.addEventListener('submit', (e) =>
             }
         }
     }
-})
+});
 
 function deleteRecords()
 {

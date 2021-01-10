@@ -124,6 +124,26 @@ nav.dark
 	background-color: #222;
 }
 
+#records
+{
+	width: 600px;
+}
+
+#calorietable
+{
+	width: 1300px;
+}
+
+table
+{
+	border: solid black 1px;
+}
+
+table td,th
+{
+	border: solid black 1px;
+}
+
 
 /*FOOTER*/
 footer
